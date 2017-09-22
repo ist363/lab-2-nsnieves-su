@@ -1,0 +1,149 @@
+.flex-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-1 {
+    background-color: cornflowerblue;
+    width: 50%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-2 {
+    background-color: salmon;
+    width: 25%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-item-2b {
+    background-color: salmon;
+    width: 50%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-container-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-3 {
+    background-color: mediumpurple;
+    width: 37.5%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-item-3b {
+    background-color: mediumpurple;
+    width: 25%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-container-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-item-4 {
+    background-color: lightgreen;
+    width: 33%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-container-5 {
+    display: flex;
+}
+
+.flex-item-5 {
+    background-color: goldenrod;
+    width: 25%;
+    height: 200px;
+    margin: 10px;
+}
+
+.flex-item-5b {
+    background-color: goldenrod;
+    margin: 10px;
+    height: 200px;
+    width: 25%;
+    margin-left: auto;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.body2{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.content1{
+    width: 75%;
+    margin: 10px;
+    height: 600px;
+    background-color:lightgray;
+    border-color:grey; 
+}
+
+.content2{
+    width: 25%;
+    height: 600px;
+    margin: 10px;
+    background-color: lightgray;
+    border-color: gray;
+}
+
+.header{
+    height: 100px;
+    background-color: coral;
+}
+
+.footer{
+    height: 200px;
+    background-color: darkslategrey;
+    margin-top: 50px;
+}
+
+.flex-container-6{
+    display: flex;
+    width: 900px;
+}
+
+.flex-item-6{
+    margin: 10px;
+    height: 200px;
+    width: 33%;
+    background-color: brown;
+}
+
+.body3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
